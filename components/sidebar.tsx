@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'; // Import React
 import Image from 'next/image';
 import Link from 'next/link';
