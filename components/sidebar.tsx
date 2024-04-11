@@ -16,7 +16,7 @@ const Sidebar = () => { // Changed component name to start with uppercase
           const isActive = pathname && (pathname === link.route || pathname.startsWith(`${link.route}/`));
           return (
             <Link href={link.route} key={link.label} className={cn('flex gap-4 items-center p-4 rounded-lg justify-start', {
-              'bg-slate-700': isActive,
+              'bg-slate-700 shadow-[0_35px_60px_-15px_rgba(255,255,255,0.3)]': isActive,
             })}
             >
               <Image 
